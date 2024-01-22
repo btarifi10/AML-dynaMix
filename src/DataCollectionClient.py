@@ -41,36 +41,43 @@ user_details = {
 
 # Set up serial connection (adjust COM port as needed)
 baud_rate = 115200
-ser = serial.Serial(input("Enter COM port: "), baud_rate)
+com_port = input("Enter COM port: ")
+ser = serial.Serial(com_port, baud_rate)
+ser.flush()
+device_found = False
+while not device_found:
+    if ser.in_waiting > 0:
+        message = ser.readline().decode('utf-8').rstrip()
+        if (message == "Ready."):
+            print(f"Found device on {com_port}, starting data collection...")
+            device_found = True
+        else:
+            print("Received message from device: ", message)
 
 # Start data collection
-ser.write(b"OOGA_BOOGA\n")
-print("Data collection started. Press Enter to stop.")
+ser.write("Start\n".encode())
+# ser.flush()
+print("Data collection started. Press CTRL+C to stop.")
 
-ani = FuncAnimation(fig, update_plot, blit=True)
+ani = FuncAnimation(fig, update_plot, blit=True, cache_frame_data=False)
 
 try:
     while True:
         if ser.in_waiting > 0:
             sensor_data = ser.readline().decode('utf-8').rstrip()
-            print(sensor_data)
-            timestamp, ecg, gsr, ppg_ir, ppg_red, ppg_temp = sensor_data.split(" ")
+            # print(sensor_data)
+            timestamp_, ecg_, gsr_, ppg_ir_, ppg_red_, ppg_temp_ = sensor_data.split(" ")
 
-            t.append(float(timestamp))
-            ecg.append(float(ecg))
-            gsr.append(float(gsr))
-            ppg_red.append(float(ppg_red))
-            ppg_ir.append(float(ppg_ir))
-            temp.append(float(ppg_temp))
+            t.append(float(timestamp_))
+            ecg.append(float(ecg_))
+            gsr.append(float(gsr_))
+            ppg_red.append(float(ppg_red_))
+            ppg_ir.append(float(ppg_ir_))
+            temp.append(float(ppg_temp_))
 
             plt.pause(0.01)
-        if input() == '':
-            ser.write(b"BIG_CHUNGUS\n")
-            break
-
 except KeyboardInterrupt:
-    pass
-
+    ser.write("Stop\n".encode())
 finally:
     ser.close()
     print("Data collection stopped.")
@@ -80,6 +87,7 @@ finally:
     # Format data
     data = {
         "user_details": user_details,
+        "timestamp": t,
         "ecg": ecg,
         "gsr": gsr,
         "ppg_red": ppg_red,
