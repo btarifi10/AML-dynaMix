@@ -63,6 +63,14 @@ float readAdcVoltage(int adcPin) {
   return (analogRead(adcPin) * ADC_REF_VOLTAGE) / ADC_RESOLUTION;
 }
 
+int T1 = 0; // C
+int T2 = 40; // C
+int V1 = 1034; // mV
+int V2 = 816; // mV
+float toTemp(float voltage) {
+  return T1 + ((T2 - T1)/(V2 - V1))*(voltage - V1);
+}
+
 void setup() {
   // Initialise Serial
   Serial.begin(115200);
@@ -127,7 +135,7 @@ void loop() {
 
     ecgReadings[currentIndex] = readAdcVoltage(ECG_PIN);
     gsrReadings[currentIndex] = readAdcVoltage(GSR_PIN);
-    temperatureReadings[currentIndex] = readAdcVoltage(TEMP_PIN);
+    temperatureReadings[currentIndex] = toTemp(readAdcVoltage(TEMP_PIN));
     ppgInfraredReadings[currentIndex] = PPG_SENSOR.getIR();
     ppgRedReadings[currentIndex] = PPG_SENSOR.getRed();
 
