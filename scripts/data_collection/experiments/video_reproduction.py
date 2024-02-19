@@ -74,7 +74,6 @@ class FullscreenVideoPlayer:
             
             self.logger.update_time_recordings(time_recordings_update_args)
 
-
         video_loop_end_time = time.time()
         video_loop_duration = video_loop_end_time - video_loop_start_time
         self._close_player()
@@ -85,7 +84,6 @@ class FullscreenVideoPlayer:
                                         self.session_duration, self.session_start_time, self.session_end_time]
         self.logger.update_subject_metadata(subject_metadata_update_args)
 
-        self.logger.save_record(self.config['logs_output_path'], self.session_start_time)
         
 def instantiate_reproduction_app(video_files, config, logger):
     root = tk.Tk()

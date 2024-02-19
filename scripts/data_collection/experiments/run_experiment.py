@@ -21,7 +21,7 @@ def run_experiment():
     app = instantiate_reproduction_app(video_files, config, logger)
     app.run_video_loop()
 
-    logger.save_record(config['logs_output_path'])
+    logger.save_record(config['logs_output_path'], app.session_start_time)
 
 
 if __name__ == '__main__':
