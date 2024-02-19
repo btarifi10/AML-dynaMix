@@ -3,6 +3,7 @@ from experiment_logging import ExperimentLogger
 from utils import load_experiment_config, get_parsed_args, override_config
 
 import os
+import random
 
 def run_experiment():
 
@@ -15,10 +16,9 @@ def run_experiment():
     logger = ExperimentLogger(subject_id=subject_id)
 
     video_files = os.listdir(config['video_path'])
-    video_files = ['DEAP Videos/3.mp4',
-                   'DEAP Videos/5.mp4']
+    selected_video_files = random.sample(video_files, config['n_videos'])
 
-    app = instantiate_reproduction_app(video_files, config, logger)
+    app = instantiate_reproduction_app(selected_video_files, config, logger)
     app.run_video_loop()
 
     logger.save_record(config['logs_output_path'], app.session_start_time)

@@ -5,6 +5,7 @@
   "break_time_seconds": 10,
   "video_width": 340,
   "video_height": 200,
+  "n_videos": 10,
   "video_path": "DEAP Videos",
   "relaxation_point_path": "relevant_videos/relaxation_point.mp4",
   "self_assessment_path": "relevant_videos/self_assessment_manikin.mp4",
