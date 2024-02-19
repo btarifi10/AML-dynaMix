@@ -16,7 +16,7 @@ def download_video(url, output_path=None, save_as=None):
     except VideoUnavailable:
         print("Video Unavailable.\n")                                         
 
-def download_videos(df, tag=None, discard_none=False, output_path='DEAP Videos/', save_index=True):
+def download_videos(df, tag=None, discard_none=False, output_path='experiments/DEAP Videos', save_index=True):
     if tag:
         print(f"Selecting only '{tag}' videos")
         df = df[df['Lastfm_tag'] == tag]
