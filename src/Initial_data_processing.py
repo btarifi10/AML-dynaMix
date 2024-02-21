@@ -3,7 +3,17 @@ import os
 import pandas as pd
 from pandas import json_normalize
 import matplotlib.pyplot as plt
-plt.ion()
+import os
+import numpy as np
+
+import sys
+
+# Add the path to the directory just above `main.py`
+sys.path.append('C:\\Users\\lauri\\OneDrive\\Documents (1)\\Imperial University\\Semester 2\\ELEC70060 Machine Learning Laboratory\\Code\\AML-dynaMix\\external_GSR')
+
+from main import *
+
+
 
 # Function to convert data to a DataFrame
 def convert_to_dataframe(user_data):
@@ -129,8 +139,8 @@ videoDuration = {
     "baseline_duration": [200, 400, 600],
     "baseline_start_time": [0, 600, 1200],
     "baseline_end_time": [200, 1000, 1800],
-    "single_video_duration": [100, 500, 700],
-    "single_video_start_time": [10000, 1000, 1800],
+    "single_video_duration": [100, 10000, 700],
+    "single_video_start_time": [10000, 20000, 1800],
     "single_video_end_time": [20000, 1500, 2500],
     "self_assessment_duration": [100, 200, 300],
     "self_assessment_start_time": [500, 1500, 2500],
@@ -149,16 +159,94 @@ videoDuration = {
 df_signals = dataframes['LAURIE_ECG_ARM_PPG_INDEX']
 df_signals1 = dataframes['LAURIE_FEATURE_TEST']
 
-print(df_signals.keys())
 
 partitions_Arm, name_ARM = partition_dataset(df_signals, videoDuration)
 partitions_Chest, name_CHEST = partition_dataset(df_signals1, videoDuration)
 
+print(type(partitions_Arm['Video 1']['single_video']['GSR']))
 segments = ['single_video']
 features = ['ECG']
-
 # Assuming partitions is your dictionary of DataFrames created earlier
-plot_segments_features_by_video_index(partitions_Arm, segments, features, name_ARM, video_index = 1)
+# plot_segments_features_by_video_index(partitions_Arm, segments, features, name_ARM, video_index = 1)
 
 
-plot_segments_features_by_video_index(partitions_Chest, segments, features, name_CHEST, video_index = 1)
+# plot_segments_features_by_video_index(partitions_Chest, segments, features, name_CHEST, video_index = 1)
+
+
+
+raw_GSR = partitions_Arm['Video 1']['single_video']['GSR']
+timestamps = partitions_Arm['Video 1']['single_video']['timestamp']
+
+# Finding average sampling frequency
+
+# Calculate differences between consecutive timestamps
+time_differences = np.diff(timestamps)
+
+# Calculate average time difference
+average_time_difference = np.mean(time_differences)
+
+# Calculate sampling frequency (in Hz)
+sampling_frequency = 1000 / average_time_difference
+
+print(f"Average time difference: {average_time_difference}")
+print(f"Sampling frequency: {sampling_frequency} Hz")
+
+
+raw_GSR1 = partitions_Arm['Video 2']['single_video']['GSR']
+timestamps1 = partitions_Arm['Video 2']['single_video']['timestamp']
+
+
+
+# # Normalize the Series to 0-1 range
+normalized_GSR = (raw_GSR - raw_GSR.min()) / (raw_GSR.max() - raw_GSR.min())
+normalized_GSR1 = (raw_GSR1 - raw_GSR1.min()) / (raw_GSR1.max() - raw_GSR1.min())
+# # Convert the normalized Series to a list
+normalized_list = normalized_GSR.tolist()
+normalized_list1 = normalized_GSR1.tolist()
+
+eda_signals = [np.array(normalized_list), np.array(normalized_list)]
+# print(np.array(eda_signals).shape)
+# prepare_automatic(eda_signals, sample_rate=25, new_sample_rate=25, k=32, epochs=50, batch_size=2)
+
+# automatic_features = process_automatic(eda_signals[0])
+
+# print(automatic_features)
+
+
+
+
+import numpy as np
+from scipy.signal import find_peaks
+import matplotlib.pyplot as plt
+
+# Assuming `data` is your dataset
+# peaks, _ = find_peaks(normalized_list, height=None)  # Start with no height threshold
+# print(peaks)
+# print(normalized_list)
+# plt.plot(normalized_list)
+# plt.plot(peaks[0], normalized_list[peaks[0]], "x")
+# plt.show()
+# input()
+
+# # # Assuming you have multiple Series objects and normalized_list is one of many
+# # # For a single signal, it would be:
+# eda_signals = [normalized_list]
+segment_width = len(raw_GSR)
+segment_width = 800
+sampling_frequency = 25
+m, wd, eda_clean = process_statistical(normalized_list, use_scipy = False, sample_rate = sampling_frequency, new_sample_rate = sampling_frequency, segment_width = segment_width, segment_overlap=0)
+
+# print(normalized_list)
+# print(m)
+# print(eda_clean)
+print(wd)
+
+# plt.figure(figsize=(12,4))
+# plt.plot(timestamps, raw_GSR, label='Raw GSR')
+# plt.plot(timestamps, eda_clean[0], label='Cleaned EDA')
+# plt.xlabel('Time')
+# plt.ylabel('Signal Value')
+# plt.title('Raw GSR and Cleaned EDA Signals')
+# plt.legend()
+# plt.show()
+# # input()
