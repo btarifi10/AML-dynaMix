@@ -6,14 +6,14 @@
 int GSR_PIN = A0; // Analog pin for GSR readings
 int ECG_PIN = A1; // Analog pin for ECG readings
 int TEMP_PIN = A2; // Analog pin for temperature readings
-int RECORDING_DELAY_BUFFER = 10; // Delay between each recording in ms
+int RECORDING_DELAY_BUFFER = 1; // Delay between each recording in ms
 int START_INSTRUCTION = 1; 
 int STOP_INSTRUCTION = 2;
 
 int ADC_RESOLUTION = 4095;
 int ADC_REF_VOLTAGE = 3300; // in mV
 
-const int SAMPLE_WINDOW_SIZE = 4;
+const int SAMPLE_WINDOW_SIZE = 1;
 
 const bool USE_GREEN = true;
 
@@ -73,7 +73,7 @@ float toTemp(float voltage) {
 
 void setup() {
   // Initialise Serial
-  Serial.begin(115200);
+  Serial.begin(922190);
   while (!Serial);
   Serial.println("Initializing...");
 
@@ -100,7 +100,7 @@ void setup() {
   byte SAMPLE_AVERAGE = (byte) 4U; //Options: 1, 2, 4, 8, 16, 32
   byte LED_MODE = (byte) 2U; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
   byte LED_MODE_GREEN = (byte) 3U; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
-  int SAMPLE_RATE = 400; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
+  int SAMPLE_RATE = 800; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
   int PULSE_WIDTH = 215; //Options: 69, 118, 215, 411
   int ADC_RANGE = 4096; //Options: 2048, 4096, 8192, 16384
   PPG_SENSOR.setup(LED_BRIGHTNESS, SAMPLE_AVERAGE, USE_GREEN ? LED_MODE_GREEN : LED_MODE, SAMPLE_RATE, PULSE_WIDTH, ADC_RANGE);
