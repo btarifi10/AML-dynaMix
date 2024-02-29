@@ -1,0 +1,3 @@
+[submodule "external_GSR"]
+	path = external_GSR
+	url = https://github.com/HealthSciTech/pyEDA
