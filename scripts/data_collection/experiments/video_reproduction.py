@@ -60,7 +60,7 @@ class FullscreenVideoPlayer:
             video_index = self.video_files.index(video_name)
             video_path = self.video_files[video_index]
 
-            single_video_start_time, single_video_end_time, single_video_duration = self._play_single_video(video_path, duration=self.config['main_video_seconds'])
+            single_video_start_time, single_video_end_time, single_video_duration = self._play_single_video(f"DEAP Videos/{video_path}", duration=self.config['main_video_seconds'])
 
             self_assessment_start_time, self_assessment_end_time, self_assessment_duration = self._play_single_video(self.self_assessment_video_path, duration=self.config['self_assessment_seconds'])
 
