@@ -163,8 +163,12 @@ void loop() {
       ppgGreenAverage = sumPPGGreen / SAMPLE_WINDOW_SIZE;
     }
 
-    // Record time
-    Serial.print(millis() - startTime);
+    // // Record relative time (duration)
+    // Serial.print(millis() - startTime);
+    // Serial.print(" ");
+    
+    // Record absolute time (end time)
+    Serial.print(millis());
     Serial.print(" ");
     // Record ECG
     Serial.print(ecgAverage);
