@@ -35,6 +35,7 @@ MAX30105 PPG_SENSOR; // Connected via I2C
 bool isRecording = false;
 bool connected = false;
 unsigned long startTime = 0;
+unsigned long epochTime = 0;
 
 float ecgReadings[SAMPLE_WINDOW_SIZE];
 float gsrReadings[SAMPLE_WINDOW_SIZE];
@@ -67,13 +68,14 @@ int T1 = 0; // C
 int T2 = 40; // C
 int V1 = 1034; // mV
 int V2 = 816; // mV
+
 float toTemp(float voltage) {
   return T1 + ((T2 - T1)/(V2 - V1))*(voltage - V1);
 }
 
 void setup() {
   // Initialise Serial
-  Serial.begin(115200);
+  Serial.begin(230400);
   while (!Serial);
   Serial.println("Initializing...");
 
@@ -97,10 +99,10 @@ void setup() {
   // PPG_SENSOR.setup();
 
   byte LED_BRIGHTNESS = (byte) 60U; //Options: 0=Off to 255=50mA
-  byte SAMPLE_AVERAGE = (byte) 4U; //Options: 1, 2, 4, 8, 16, 32
+  byte SAMPLE_AVERAGE = (byte) 1U; //Options: 1, 2, 4, 8, 16, 32
   byte LED_MODE = (byte) 2U; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
   byte LED_MODE_GREEN = (byte) 3U; //Options: 1 = Red only, 2 = Red + IR, 3 = Red + IR + Green
-  int SAMPLE_RATE = 400; //Options: 50, 100, 200, 400, 800, 1000, 1600, 3200
+  int SAMPLE_RATE = 800; //Options: 50, 100, 200, 400, 800, 1600, 3200
   int PULSE_WIDTH = 215; //Options: 69, 118, 215, 411
   int ADC_RANGE = 4096; //Options: 2048, 4096, 8192, 16384
   PPG_SENSOR.setup(LED_BRIGHTNESS, SAMPLE_AVERAGE, USE_GREEN ? LED_MODE_GREEN : LED_MODE, SAMPLE_RATE, PULSE_WIDTH, ADC_RANGE);
@@ -116,6 +118,7 @@ void loop() {
     if (command.equals("Start")) {
       isRecording = true;
       startTime = millis();
+      // epochTime = Serial.readStringUntil('\n').toInt();
       PPG_SENSOR.wakeUp();
     } else if (command.equals("Stop")) {
       isRecording = false;
@@ -123,10 +126,9 @@ void loop() {
     }
   }
 
-  PPG_SENSOR.check();
+  // PPG_SENSOR.check();
   // Record data
-  if (isRecording && PPG_SENSOR.available()) {
-
+  if (isRecording) { //} && PPG_SENSOR.available()) {
     sumECG -= ecgReadings[currentIndex];
     sumGSR -= gsrReadings[currentIndex];
     sumTemperature -= temperatureReadings[currentIndex];
@@ -159,17 +161,24 @@ void loop() {
     ppgInfraredAverage = sumPPGInfrared / SAMPLE_WINDOW_SIZE;
     ppgRedAverage = sumPPGRed / SAMPLE_WINDOW_SIZE;
 
+    // ecgAverage = readAdcVoltage(ECG_PIN);
+    // gsrAverage = readAdcVoltage(GSR_PIN);
+    // temperatureAverage = toTemp(readAdcVoltage(TEMP_PIN));
+    // ppgInfraredAverage = PPG_SENSOR.getIR();
+    // ppgRedAverage = PPG_SENSOR.getRed();
+
     if (USE_GREEN) {
       ppgGreenAverage = sumPPGGreen / SAMPLE_WINDOW_SIZE;
+      // ppgGreenAverage = PPG_SENSOR.getGreen();
     }
 
-    // // Record relative time (duration)
-    // Serial.print(millis() - startTime);
-    // Serial.print(" ");
+    // Record relative time (duration)
+    Serial.print(millis() - startTime);
+    Serial.print(" ");
     
     // Record absolute time (end time)
-    Serial.print(millis());
-    Serial.print(" ");
+    // Serial.print(epochTime + (millis() - startTime));
+    // Serial.print(" ");
     // Record ECG
     Serial.print(ecgAverage);
     Serial.print(" ");
@@ -187,12 +196,12 @@ void loop() {
       Serial.print(" ");
     }
 
-    Serial.print(temperatureReadings[currentIndex]);
+    Serial.print(temperatureAverage);
     Serial.print("\n");
 
-    PPG_SENSOR.nextSample();
+    // PPG_SENSOR.nextSample();
   }
 
-  delay(RECORDING_DELAY_BUFFER);
+  // delay(RECORDING_DELAY_BUFFER);
 }
 

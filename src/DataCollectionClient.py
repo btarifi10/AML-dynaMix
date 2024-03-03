@@ -1,5 +1,5 @@
 from datetime import datetime
-from time import sleep
+from time import sleep, time
 import serial
 import json
 import matplotlib.pyplot as plt
@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     # Set up serial connection
     com_port = input("Enter COM port: ")
-    baud_rate = 115200
+    baud_rate = 230400
     ser = serial.Serial(com_port, baud_rate)
     ser.flush()
 
@@ -111,6 +111,7 @@ if __name__ == "__main__":
 
     # Start data collection
     ser.write("Start\n".encode())
+    # ser.write(f"{int(datetime.now().timestamp() * 1000).encode()}\n".encode())
     print("Data collection started. Press CTRL+C to stop.")
 
     # Start data collection thread
