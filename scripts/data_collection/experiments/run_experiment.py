@@ -16,6 +16,9 @@ def run_experiment():
     logger = ExperimentLogger(subject_id=subject_id)
 
     video_files = os.listdir(config['video_path'])
+    print(os.getcwd())
+    print("\n\n\n")
+    print(video_files)
     selected_video_files = random.sample(video_files, config['n_videos'])
 
     app = instantiate_reproduction_app(selected_video_files, config, logger)

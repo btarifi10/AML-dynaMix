@@ -1,5 +1,5 @@
 from datetime import datetime
-from time import sleep, time
+from time import sleep, time, time
 import serial
 import json
 import matplotlib.pyplot as plt
@@ -27,7 +27,8 @@ plot_lines = {
 }
 
 # Data lists
-t, time_python, ecg, gsr, ppg_red, ppg_ir, ppg_green, temp = [], [], [], [], [], [], [], []
+t, ecg, gsr, ppg_red, ppg_ir, ppg_green, temp = [], [], [], [], [], [], []
+abs_t = []
 
 # Thread-safe mechanism for data updates
 data_lock = threading.Lock()
@@ -72,6 +73,7 @@ def collect_data(ser):
 
                 with data_lock:
                     t.append(float(timestamp_))
+                    abs_t.append(time())
                     ecg.append(float(ecg_))
                     gsr.append(float(gsr_))
                     ppg_red.append(float(ppg_red_))
@@ -92,7 +94,7 @@ if __name__ == "__main__":
 
     # Set up serial connection
     com_port = input("Enter COM port: ")
-    baud_rate = 115200
+    baud_rate = 230400
     ser = serial.Serial(com_port, baud_rate)
     ser.flush()
 
@@ -111,6 +113,7 @@ if __name__ == "__main__":
 
     # Start data collection
     ser.write("Start\n".encode())
+    # ser.write(f"{int(datetime.now().timestamp() * 1000).encode()}\n".encode())
     print("Data collection started. Press CTRL+C to stop.")
 
     # Start data collection thread
@@ -134,6 +137,7 @@ if __name__ == "__main__":
         data = {
             "user_details": user_details,
             "timestamp": t,
+            "absolute_time": abs_t,
             "ecg": ecg,
             "gsr": gsr,
             "ppg_red": ppg_red,
