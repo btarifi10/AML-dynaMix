@@ -28,6 +28,7 @@ plot_lines = {
 
 # Data lists
 t, ecg, gsr, ppg_red, ppg_ir, ppg_green, temp = [], [], [], [], [], [], []
+abs_t = []
 
 # Thread-safe mechanism for data updates
 data_lock = threading.Lock()
@@ -72,6 +73,7 @@ def collect_data(ser):
                 
                 with data_lock:
                     t.append(float(timestamp_))
+                    abs_t.append(time())
                     ecg.append(float(ecg_))
                     gsr.append(float(gsr_))
                     ppg_red.append(float(ppg_red_))
@@ -135,6 +137,7 @@ if __name__ == "__main__":
         data = {
             "user_details": user_details,
             "timestamp": t,
+            "absolute_time": abs_t,
             "ecg": ecg,
             "gsr": gsr,
             "ppg_red": ppg_red,
