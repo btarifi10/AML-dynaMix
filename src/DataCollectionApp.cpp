@@ -6,14 +6,14 @@
 int GSR_PIN = A0; // Analog pin for GSR readings
 int ECG_PIN = A1; // Analog pin for ECG readings
 int TEMP_PIN = A2; // Analog pin for temperature readings
-int RECORDING_DELAY_BUFFER = 10; // Delay between each recording in ms
+int RECORDING_DELAY_BUFFER = 3; // Delay between each recording in ms
 int START_INSTRUCTION = 1; 
 int STOP_INSTRUCTION = 2;
 
 int ADC_RESOLUTION = 4095;
 int ADC_REF_VOLTAGE = 3300; // in mV
 
-const int SAMPLE_WINDOW_SIZE = 4;
+const int SAMPLE_WINDOW_SIZE = 2;
 
 const bool USE_GREEN = true;
 
@@ -202,6 +202,6 @@ void loop() {
     // PPG_SENSOR.nextSample();
   }
 
-  // delay(RECORDING_DELAY_BUFFER);
+  delay(RECORDING_DELAY_BUFFER);
 }
 
