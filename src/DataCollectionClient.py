@@ -1,5 +1,5 @@
 from datetime import datetime
-from time import sleep, time
+from time import sleep, time, time
 import serial
 import json
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ def collect_data(ser):
             if ser.in_waiting > 0:
                 sensor_data = ser.readline().decode('utf-8').rstrip()
                 timestamp_, ecg_, gsr_, ppg_ir_, ppg_red_, ppg_green_, temp_ = sensor_data.split(" ")
-                
+
                 with data_lock:
                     t.append(float(timestamp_))
                     abs_t.append(time())
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     try:
         while running:
             update_plot()
-            plt.pause(0.1)  # Adjust as necessary for update frequency
+            plt.pause(0.5)  # Adjust as necessary for update frequency
     except KeyboardInterrupt:
         print("Program interrupted by user.")
     finally:
