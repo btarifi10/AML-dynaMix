@@ -1,0 +1,1290 @@
+{
+    "ECG Features": [
+        {
+            "Label": "Video 1",
+            "ECG_Rate_Mean": 59.192581986545235,
+            "HRV_MeanNN": [
+                [
+                    136.0
+                ]
+            ],
+            "HRV_SDNN": [
+                [
+                    39.2670345200653
+                ]
+            ],
+            "HRV_SDANN1": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI1": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDANN2": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI2": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDANN5": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI5": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_RMSSD": [
+                [
+                    46.53224688320993
+                ]
+            ],
+            "HRV_SDSD": [
+                [
+                    47.723849273436485
+                ]
+            ],
+            "HRV_CVNN": [
+                [
+                    0.28872819500048014
+                ]
+            ],
+            "HRV_CVSD": [
+                [
+                    0.3421488741412495
+                ]
+            ],
+            "HRV_MedianNN": [
+                [
+                    152.0
+                ]
+            ],
+            "HRV_MadNN": [
+                [
+                    16.3086
+                ]
+            ],
+            "HRV_MCVNN": [
+                [
+                    0.10729342105263157
+                ]
+            ],
+            "HRV_IQRNN": [
+                [
+                    60.0
+                ]
+            ],
+            "HRV_SDRMSSD": [
+                [
+                    0.8438671491325275
+                ]
+            ],
+            "HRV_Prc20NN": [
+                [
+                    100.0
+                ]
+            ],
+            "HRV_Prc80NN": [
+                [
+                    163.0
+                ]
+            ],
+            "HRV_pNN50": [
+                [
+                    28.57142857142857
+                ]
+            ],
+            "HRV_pNN20": [
+                [
+                    47.61904761904761
+                ]
+            ],
+            "HRV_MinNN": [
+                [
+                    59.0
+                ]
+            ],
+            "HRV_MaxNN": [
+                [
+                    191.0
+                ]
+            ],
+            "HRV_HTI": [
+                [
+                    3.5
+                ]
+            ],
+            "HRV_TINN": [
+                [
+                    109.375
+                ]
+            ],
+            "HRV_ULF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_VLF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_HF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_VHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_TP": [
+                [
+                    0.0
+                ]
+            ],
+            "HRV_LFHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LFn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_HFn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LnHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SD1": [
+                [
+                    33.74585744557163
+                ]
+            ],
+            "HRV_SD2": [
+                [
+                    43.47889687749921
+                ]
+            ],
+            "HRV_SD1SD2": [
+                [
+                    0.776143367681333
+                ]
+            ],
+            "HRV_S": [
+                [
+                    4609.447332941536
+                ]
+            ],
+            "HRV_CSI": [
+                [
+                    1.2884217551035977
+                ]
+            ],
+            "HRV_CVI": [
+                [
+                    4.37061896709931
+                ]
+            ],
+            "HRV_CSI_Modified": [
+                [
+                    224.07662649950348
+                ]
+            ],
+            "HRV_PIP": [
+                [
+                    0.6190476190476191
+                ]
+            ],
+            "HRV_IALS": [
+                [
+                    0.7
+                ]
+            ],
+            "HRV_PSS": [
+                [
+                    1.0
+                ]
+            ],
+            "HRV_PAS": [
+                [
+                    0.14285714285714285
+                ]
+            ],
+            "HRV_GI": [
+                [
+                    51.80375180375179
+                ]
+            ],
+            "HRV_SI": [
+                [
+                    51.3953904538141
+                ]
+            ],
+            "HRV_AI": [
+                [
+                    52.21100481746661
+                ]
+            ],
+            "HRV_PI": [
+                [
+                    50.0
+                ]
+            ],
+            "HRV_C1d": [
+                [
+                    0.47567255513220164
+                ]
+            ],
+            "HRV_C1a": [
+                [
+                    0.524327444867798
+                ]
+            ],
+            "HRV_SD1d": [
+                [
+                    23.28258893182674
+                ]
+            ],
+            "HRV_SD1a": [
+                [
+                    24.444351408648046
+                ]
+            ],
+            "HRV_C2d": [
+                [
+                    0.4703525055421568
+                ]
+            ],
+            "HRV_C2a": [
+                [
+                    0.5296474944578431
+                ]
+            ],
+            "HRV_SD2d": [
+                [
+                    29.818805881700328
+                ]
+            ],
+            "HRV_SD2a": [
+                [
+                    31.642586643219992
+                ]
+            ],
+            "HRV_Cd": [
+                [
+                    0.47235340224898653
+                ]
+            ],
+            "HRV_Ca": [
+                [
+                    0.5276465977510135
+                ]
+            ],
+            "HRV_SDNNd": [
+                [
+                    26.75107597442528
+                ]
+            ],
+            "HRV_SDNNa": [
+                [
+                    28.273482322338346
+                ]
+            ],
+            "HRV_DFA_alpha1": [
+                [
+                    0.702974181703931
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Width": [
+                [
+                    3.8278999860691436
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Peak": [
+                [
+                    1.772311710280492
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Mean": [
+                [
+                    2.3512202345831126
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Max": [
+                [
+                    -1.053693227147619
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Delta": [
+                [
+                    -1.520339539654187
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Asymmetry": [
+                [
+                    -0.3487660266962462
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Fluctuation": [
+                [
+                    0.030723470296536066
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Increment": [
+                [
+                    1.9870344929928594
+                ]
+            ],
+            "HRV_ApEn": [
+                [
+                    0.2864839482941606
+                ]
+            ],
+            "HRV_SampEn": [
+                [
+                    0.8472978603872034
+                ]
+            ],
+            "HRV_ShanEn": [
+                [
+                    4.106603137064474
+                ]
+            ],
+            "HRV_FuzzyEn": [
+                [
+                    1.2047095267528958
+                ]
+            ],
+            "HRV_MSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_CMSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_RCMSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_CD": [
+                [
+                    1.7211669805395262
+                ]
+            ],
+            "HRV_HFD": [
+                [
+                    1.8107988144771845
+                ]
+            ],
+            "HRV_KFD": [
+                [
+                    2.6568954506924447
+                ]
+            ],
+            "HRV_LZC": [
+                [
+                    1.254947835079646
+                ]
+            ]
+        },
+        {
+            "Label": "Video 2",
+            "ECG_Rate_Mean": 60.05082415773083,
+            "HRV_MeanNN": [
+                [
+                    136.0
+                ]
+            ],
+            "HRV_SDNN": [
+                [
+                    54.84067833278505
+                ]
+            ],
+            "HRV_SDANN1": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI1": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDANN2": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI2": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDANN5": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SDNNI5": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_RMSSD": [
+                [
+                    71.97985829383106
+                ]
+            ],
+            "HRV_SDSD": [
+                [
+                    73.8183403255658
+                ]
+            ],
+            "HRV_CVNN": [
+                [
+                    0.40324028185871363
+                ]
+            ],
+            "HRV_CVSD": [
+                [
+                    0.5292636639252284
+                ]
+            ],
+            "HRV_MedianNN": [
+                [
+                    146.0
+                ]
+            ],
+            "HRV_MadNN": [
+                [
+                    26.686799999999998
+                ]
+            ],
+            "HRV_MCVNN": [
+                [
+                    0.182786301369863
+                ]
+            ],
+            "HRV_IQRNN": [
+                [
+                    46.0
+                ]
+            ],
+            "HRV_SDRMSSD": [
+                [
+                    0.7618892233563219
+                ]
+            ],
+            "HRV_Prc20NN": [
+                [
+                    89.0
+                ]
+            ],
+            "HRV_Prc80NN": [
+                [
+                    155.0
+                ]
+            ],
+            "HRV_pNN50": [
+                [
+                    42.857142857142854
+                ]
+            ],
+            "HRV_pNN20": [
+                [
+                    61.904761904761905
+                ]
+            ],
+            "HRV_MinNN": [
+                [
+                    42.0
+                ]
+            ],
+            "HRV_MaxNN": [
+                [
+                    306.0
+                ]
+            ],
+            "HRV_HTI": [
+                [
+                    5.25
+                ]
+            ],
+            "HRV_TINN": [
+                [
+                    125.0
+                ]
+            ],
+            "HRV_ULF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_VLF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_HF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_VHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_TP": [
+                [
+                    0.0
+                ]
+            ],
+            "HRV_LFHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LFn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_HFn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_LnHF": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_SD1": [
+                [
+                    52.19744902014395
+                ]
+            ],
+            "HRV_SD2": [
+                [
+                    58.754126394841855
+                ]
+            ],
+            "HRV_SD1SD2": [
+                [
+                    0.8884048189120292
+                ]
+            ],
+            "HRV_S": [
+                [
+                    9634.685098806785
+                ]
+            ],
+            "HRV_CSI": [
+                [
+                    1.1256129848829886
+                ]
+            ],
+            "HRV_CVI": [
+                [
+                    4.690807634652747
+                ]
+            ],
+            "HRV_CSI_Modified": [
+                [
+                    264.5376303419613
+                ]
+            ],
+            "HRV_PIP": [
+                [
+                    0.6190476190476191
+                ]
+            ],
+            "HRV_IALS": [
+                [
+                    0.6842105263157895
+                ]
+            ],
+            "HRV_PSS": [
+                [
+                    0.8461538461538461
+                ]
+            ],
+            "HRV_PAS": [
+                [
+                    0.2
+                ]
+            ],
+            "HRV_GI": [
+                [
+                    51.992409867172675
+                ]
+            ],
+            "HRV_SI": [
+                [
+                    50.21827333175578
+                ]
+            ],
+            "HRV_AI": [
+                [
+                    53.3648057838921
+                ]
+            ],
+            "HRV_PI": [
+                [
+                    63.1578947368421
+                ]
+            ],
+            "HRV_C1d": [
+                [
+                    0.6059910057709752
+                ]
+            ],
+            "HRV_C1a": [
+                [
+                    0.3940089942290247
+                ]
+            ],
+            "HRV_SD1d": [
+                [
+                    40.65062956720998
+                ]
+            ],
+            "HRV_SD1a": [
+                [
+                    32.77836256788278
+                ]
+            ],
+            "HRV_C2d": [
+                [
+                    0.40112179804814546
+                ]
+            ],
+            "HRV_C2a": [
+                [
+                    0.5988782019518547
+                ]
+            ],
+            "HRV_SD2d": [
+                [
+                    37.21144242525975
+                ]
+            ],
+            "HRV_SD2a": [
+                [
+                    45.46818581219875
+                ]
+            ],
+            "HRV_Cd": [
+                [
+                    0.49153480965486346
+                ]
+            ],
+            "HRV_Ca": [
+                [
+                    0.5084651903451364
+                ]
+            ],
+            "HRV_SDNNd": [
+                [
+                    38.968994929167394
+                ]
+            ],
+            "HRV_SDNNa": [
+                [
+                    39.63443561906874
+                ]
+            ],
+            "HRV_DFA_alpha1": [
+                [
+                    0.833729644855875
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Width": [
+                [
+                    4.371820262018259
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Peak": [
+                [
+                    1.96824989723903
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Mean": [
+                [
+                    2.8657375749443252
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Max": [
+                [
+                    -1.2706107655173593
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Delta": [
+                [
+                    -1.9007201172205415
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Asymmetry": [
+                [
+                    -0.29471075572284205
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Fluctuation": [
+                [
+                    0.0650795749646902
+                ]
+            ],
+            "HRV_MFDFA_alpha1_Increment": [
+                [
+                    3.1937945397127954
+                ]
+            ],
+            "HRV_ApEn": [
+                [
+                    0.26837488530248965
+                ]
+            ],
+            "HRV_SampEn": [
+                [
+                    1.2992829841302609
+                ]
+            ],
+            "HRV_ShanEn": [
+                [
+                    4.201841232302569
+                ]
+            ],
+            "HRV_FuzzyEn": [
+                [
+                    1.6836618941690664
+                ]
+            ],
+            "HRV_MSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_CMSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_RCMSEn": [
+                [
+                    NaN
+                ]
+            ],
+            "HRV_CD": [
+                [
+                    1.3680346132971928
+                ]
+            ],
+            "HRV_HFD": [
+                [
+                    2.0192387823113025
+                ]
+            ],
+            "HRV_KFD": [
+                [
+                    2.697500988961652
+                ]
+            ],
+            "HRV_LZC": [
+                [
+                    1.6732637801061945
+                ]
+            ]
+        }
+    ],
+    "RSP Features": [
+        {
+            "Label": "Video 1",
+            "RSP_Rate_Mean": 13.04930853924745,
+            "RRV_RMSSD": 3377.9087387315944,
+            "RRV_MeanBB": 4977.272727272727,
+            "RRV_SDBB": 1953.59091091233,
+            "RRV_SDSD": 4772.970773009197,
+            "RRV_CVBB": 0.39250228347097044,
+            "RRV_CVSD": 0.6786665959095441,
+            "RRV_MedianBB": 3992.424242424242,
+            "RRV_MadBB": 415.5772727272723,
+            "RRV_MCVBB": 0.10409146110056916,
+            "RRV_VLF": NaN,
+            "RRV_LF": NaN,
+            "RRV_HF": 0.008735283134410316,
+            "RRV_LFHF": NaN,
+            "RRV_LFn": NaN,
+            "RRV_HFn": NaN,
+            "RRV_SD1": 3375.000000000001,
+            "RRV_SD2": NaN,
+            "RRV_SD2SD1": NaN,
+            "RRV_ApEn": 0.6931471805599453,
+            "RRV_SampEn": NaN,
+            "RAV_Mean": 38.64783563870064,
+            "RAV_SD": 15.444559460718205,
+            "RAV_RMSSD": 24.311535253310208,
+            "RAV_CVSD": 0.6290529560461454,
+            "RSP_RVT": 5.155930759286558,
+            "RSP_Symmetry_PeakTrough": 0.6628601868285227,
+            "RSP_Symmetry_RiseDecay": 0.4053356495023487,
+            "RSP_Phase_Duration_Inspiration": 0.01211377162451764,
+            "RSP_Phase_Duration_Expiration": 0.023725194899677303,
+            "RSP_Phase_Duration_Ratio": 0.5105868118572296
+        },
+        {
+            "Label": "Video 2",
+            "RSP_Rate_Mean": 11.256927606361346,
+            "RRV_RMSSD": 983.9739707039803,
+            "RRV_MeanBB": 3568.181818181818,
+            "RRV_SDBB": 885.0568801229412,
+            "RRV_SDSD": 1030.5351045817556,
+            "RRV_CVBB": 0.24804141863318097,
+            "RRV_CVSD": 0.2757634058023894,
+            "RRV_MedianBB": 3306.818181818182,
+            "RRV_MadBB": 376.26590909090936,
+            "RRV_MCVBB": 0.11378487972508598,
+            "RRV_VLF": NaN,
+            "RRV_LF": NaN,
+            "RRV_HF": 0.0018270087964042064,
+            "RRV_LFHF": NaN,
+            "RRV_LFn": NaN,
+            "RRV_HFn": NaN,
+            "RRV_SD1": 728.6983607005474,
+            "RRV_SD2": 1017.6689349775021,
+            "RRV_SD2SD1": 1.3965571899999165,
+            "RRV_ApEn": 0.4054651081081645,
+            "RRV_SampEn": -Infinity,
+            "RAV_Mean": 36.60578673042359,
+            "RAV_SD": 16.519453002116766,
+            "RAV_RMSSD": 21.137242012529,
+            "RAV_CVSD": 0.5774289777785745,
+            "RSP_RVT": 7.559475627144806,
+            "RSP_Symmetry_PeakTrough": 0.3943004777197969,
+            "RSP_Symmetry_RiseDecay": 0.6009671917534206,
+            "RSP_Phase_Duration_Inspiration": 0.015242684200518636,
+            "RSP_Phase_Duration_Expiration": 0.015971806947586757,
+            "RSP_Phase_Duration_Ratio": 0.9543493889288283
+        }
+    ],
+    "PPG IR Features": [
+        {
+            "Label": "Video 1",
+            "PPG_Rate_Mean": 58.95213133339693,
+            "HRV_MeanNN": 137.0,
+            "HRV_SDNN": 41.90107397191628,
+            "HRV_SDANN1": NaN,
+            "HRV_SDNNI1": NaN,
+            "HRV_SDANN2": NaN,
+            "HRV_SDNNI2": NaN,
+            "HRV_SDANN5": NaN,
+            "HRV_SDNNI5": NaN,
+            "HRV_RMSSD": 36.99662146737185,
+            "HRV_SDSD": 37.48020530191483,
+            "HRV_CVNN": 0.30584725526946194,
+            "HRV_CVSD": 0.27004833187862665,
+            "HRV_MedianNN": 154.0,
+            "HRV_MadNN": 28.1694,
+            "HRV_MCVNN": 0.1829181818181818,
+            "HRV_IQRNN": 56.0,
+            "HRV_SDRMSSD": 1.1325648751162258,
+            "HRV_Prc20NN": 92.0,
+            "HRV_Prc80NN": 165.0,
+            "HRV_pNN50": 23.809523809523807,
+            "HRV_pNN20": 47.61904761904761,
+            "HRV_MinNN": 58.0,
+            "HRV_MaxNN": 191.0,
+            "HRV_HTI": 4.2,
+            "HRV_TINN": 101.5625,
+            "HRV_ULF": NaN,
+            "HRV_VLF": NaN,
+            "HRV_LF": NaN,
+            "HRV_HF": NaN,
+            "HRV_VHF": NaN,
+            "HRV_TP": 0.0,
+            "HRV_LFHF": NaN,
+            "HRV_LFn": NaN,
+            "HRV_HFn": NaN,
+            "HRV_LnHF": NaN,
+            "HRV_SD1": 26.502507329247962,
+            "HRV_SD2": 50.882462597637705,
+            "HRV_SD1SD2": 0.5208574030471234,
+            "HRV_S": 4236.478024893809,
+            "HRV_CSI": 1.9199112735074773,
+            "HRV_CVI": 4.333975067974347,
+            "HRV_CSI_Modified": 390.7592542601088,
+            "HRV_PIP": 0.5714285714285714,
+            "HRV_IALS": 0.6499999999999999,
+            "HRV_PSS": 0.8461538461538461,
+            "HRV_PAS": 0.25,
+            "HRV_GI": 60.50269299820465,
+            "HRV_SI": 60.68542425414755,
+            "HRV_AI": 60.26932883592032,
+            "HRV_PI": 45.0,
+            "HRV_C1d": 0.6840182648401827,
+            "HRV_C1a": 0.31598173515981726,
+            "HRV_SD1d": 22.198269254487766,
+            "HRV_SD1a": 15.087464298130696,
+            "HRV_C2d": 0.5653573866203442,
+            "HRV_C2a": 0.4346426133796556,
+            "HRV_SD2d": 38.25865141238955,
+            "HRV_SD2a": 33.545500325755505,
+            "HRV_Cd": 0.5911874955022726,
+            "HRV_Ca": 0.4088125044977275,
+            "HRV_SDNNd": 31.27688895805874,
+            "HRV_SDNNa": 26.00896163875666,
+            "HRV_DFA_alpha1": 0.9675261038487899,
+            "HRV_MFDFA_alpha1_Width": 2.8172973654888636,
+            "HRV_MFDFA_alpha1_Peak": 1.7426224221800524,
+            "HRV_MFDFA_alpha1_Mean": 2.079976817195253,
+            "HRV_MFDFA_alpha1_Max": -0.3732723506075786,
+            "HRV_MFDFA_alpha1_Delta": -0.732951320946821,
+            "HRV_MFDFA_alpha1_Asymmetry": -0.3802560215518242,
+            "HRV_MFDFA_alpha1_Fluctuation": 0.014284354649502519,
+            "HRV_MFDFA_alpha1_Increment": 1.0011754109309934,
+            "HRV_ApEn": 0.09076398513427719,
+            "HRV_SampEn": 0.6061358035703158,
+            "HRV_ShanEn": 4.297079327540664,
+            "HRV_FuzzyEn": 1.2340264376065462,
+            "HRV_MSEn": NaN,
+            "HRV_CMSEn": NaN,
+            "HRV_RCMSEn": NaN,
+            "HRV_CD": 1.2543216681887766,
+            "HRV_HFD": 1.7552711139322565,
+            "HRV_KFD": 1.964160491480941,
+            "HRV_LZC": 1.0457898625663715
+        },
+        {
+            "Label": "Video 2",
+            "PPG_Rate_Mean": 59.64476132024225,
+            "HRV_MeanNN": 131.9047619047619,
+            "HRV_SDNN": 38.389978851133485,
+            "HRV_SDANN1": NaN,
+            "HRV_SDNNI1": NaN,
+            "HRV_SDANN2": NaN,
+            "HRV_SDNNI2": NaN,
+            "HRV_SDANN5": NaN,
+            "HRV_SDNNI5": NaN,
+            "HRV_RMSSD": 24.374166652421167,
+            "HRV_SDSD": 25.00715687032099,
+            "HRV_CVNN": 0.29104316096527194,
+            "HRV_CVSD": 0.18478610097503412,
+            "HRV_MedianNN": 152.0,
+            "HRV_MadNN": 10.3782,
+            "HRV_MCVNN": 0.06827763157894737,
+            "HRV_IQRNN": 63.0,
+            "HRV_SDRMSSD": 1.575027339337572,
+            "HRV_Prc20NN": 79.0,
+            "HRV_Prc80NN": 159.0,
+            "HRV_pNN50": 9.523809523809524,
+            "HRV_pNN20": 19.047619047619047,
+            "HRV_MinNN": 50.0,
+            "HRV_MaxNN": 163.0,
+            "HRV_HTI": 2.3333333333333335,
+            "HRV_TINN": 101.5625,
+            "HRV_ULF": NaN,
+            "HRV_VLF": NaN,
+            "HRV_LF": NaN,
+            "HRV_HF": NaN,
+            "HRV_VHF": NaN,
+            "HRV_TP": 0.0,
+            "HRV_LFHF": NaN,
+            "HRV_LFn": NaN,
+            "HRV_HFn": NaN,
+            "HRV_LnHF": NaN,
+            "HRV_SD1": 17.68273020119973,
+            "HRV_SD2": 52.352097429455085,
+            "HRV_SD1SD2": 0.33776545868152397,
+            "HRV_S": 2908.260328984771,
+            "HRV_CSI": 2.960634293108376,
+            "HRV_CVI": 4.170603389171223,
+            "HRV_CSI_Modified": 619.9816598631822,
+            "HRV_PIP": 0.5238095238095238,
+            "HRV_IALS": 0.5789473684210527,
+            "HRV_PSS": 0.7272727272727273,
+            "HRV_PAS": 0.2,
+            "HRV_GI": 49.64285714285715,
+            "HRV_SI": 49.883329390093024,
+            "HRV_AI": 49.18311227678127,
+            "HRV_PI": 42.10526315789473,
+            "HRV_C1d": 0.44041407170510016,
+            "HRV_C1a": 0.5595859282949,
+            "HRV_SD1d": 11.735012838330833,
+            "HRV_SD1a": 13.22776187457751,
+            "HRV_C2d": 0.4533965541411181,
+            "HRV_C2a": 0.5466034458588819,
+            "HRV_SD2d": 35.25114219874002,
+            "HRV_SD2a": 38.70528489686348,
+            "HRV_Cd": 0.4520670911538546,
+            "HRV_Ca": 0.5479329088461452,
+            "HRV_SDNNd": 26.271215737300572,
+            "HRV_SDNNa": 28.9229386746739,
+            "HRV_DFA_alpha1": 1.3478941000487796,
+            "HRV_MFDFA_alpha1_Width": 0.6280098945850159,
+            "HRV_MFDFA_alpha1_Peak": 0.7198842054637637,
+            "HRV_MFDFA_alpha1_Mean": 1.0338891527562717,
+            "HRV_MFDFA_alpha1_Max": 0.7522479715009425,
+            "HRV_MFDFA_alpha1_Delta": -0.5908152669207274,
+            "HRV_MFDFA_alpha1_Asymmetry": 0.0,
+            "HRV_MFDFA_alpha1_Fluctuation": 0.010530659845166117,
+            "HRV_MFDFA_alpha1_Increment": 0.25801305515566775,
+            "HRV_ApEn": 0.36013218696655547,
+            "HRV_SampEn": 0.4643056081310975,
+            "HRV_ShanEn": 3.880179922675738,
+            "HRV_FuzzyEn": 0.6596674252807612,
+            "HRV_MSEn": NaN,
+            "HRV_CMSEn": NaN,
+            "HRV_RCMSEn": NaN,
+            "HRV_CD": 1.210450209289082,
+            "HRV_HFD": 1.4218273779757378,
+            "HRV_KFD": 1.4938822742901177,
+            "HRV_LZC": 0.8366318900530972
+        }
+    ],
+    "PPG Red Features": [
+        {
+            "Label": "Video 1",
+            "PPG_Rate_Mean": 74.69510661979945,
+            "HRV_MeanNN": 110.6923076923077,
+            "HRV_SDNN": 41.598816551213794,
+            "HRV_SDANN1": NaN,
+            "HRV_SDNNI1": NaN,
+            "HRV_SDANN2": NaN,
+            "HRV_SDNNI2": NaN,
+            "HRV_SDANN5": NaN,
+            "HRV_SDNNI5": NaN,
+            "HRV_RMSSD": 62.466310920367306,
+            "HRV_SDSD": 63.68471820879271,
+            "HRV_CVNN": 0.3758058479261844,
+            "HRV_CVSD": 0.5643238651596768,
+            "HRV_MedianNN": 111.5,
+            "HRV_MadNN": 57.8214,
+            "HRV_MCVNN": 0.5185775784753363,
+            "HRV_IQRNN": 73.75,
+            "HRV_SDRMSSD": 0.6659400233230419,
+            "HRV_Prc20NN": 67.0,
+            "HRV_Prc80NN": 154.0,
+            "HRV_pNN50": 50.0,
+            "HRV_pNN20": 73.07692307692307,
+            "HRV_MinNN": 42.0,
+            "HRV_MaxNN": 182.0,
+            "HRV_HTI": 8.666666666666666,
+            "HRV_TINN": 46.875,
+            "HRV_ULF": NaN,
+            "HRV_VLF": NaN,
+            "HRV_LF": NaN,
+            "HRV_HF": NaN,
+            "HRV_VHF": NaN,
+            "HRV_TP": 0.0,
+            "HRV_LFHF": NaN,
+            "HRV_LFn": NaN,
+            "HRV_HFn": NaN,
+            "HRV_LnHF": NaN,
+            "HRV_SD1": 45.031896103391716,
+            "HRV_SD2": 36.83465306836303,
+            "HRV_SD1SD2": 1.2225416110154497,
+            "HRV_S": 5211.067396823664,
+            "HRV_CSI": 0.8179680683174413,
+            "HRV_CVI": 4.42389680006951,
+            "HRV_CSI_Modified": 120.51828006988808,
+            "HRV_PIP": 0.5384615384615384,
+            "HRV_IALS": 0.6,
+            "HRV_PSS": 0.8666666666666667,
+            "HRV_PAS": 0.14285714285714285,
+            "HRV_GI": 52.78413424866515,
+            "HRV_SI": 50.8714315442911,
+            "HRV_AI": 54.71023222113448,
+            "HRV_PI": 52.0,
+            "HRV_C1d": 0.6035202099414664,
+            "HRV_C1a": 0.3964797900585336,
+            "HRV_SD1d": 35.022016884620825,
+            "HRV_SD1a": 28.386102820453065,
+            "HRV_C2d": 0.4216184012529558,
+            "HRV_C2a": 0.5783815987470442,
+            "HRV_SD2d": 23.91753192395347,
+            "HRV_SD2a": 28.013270664692712,
+            "HRV_Cd": 0.5306977630519372,
+            "HRV_Ca": 0.4693022369480628,
+            "HRV_SDNNd": 29.988247698056647,
+            "HRV_SDNNa": 28.200302894354405,
+            "HRV_DFA_alpha1": 0.516578300958071,
+            "HRV_MFDFA_alpha1_Width": 0.9813644827573365,
+            "HRV_MFDFA_alpha1_Peak": 0.6496640271771572,
+            "HRV_MFDFA_alpha1_Mean": 0.8124080637662598,
+            "HRV_MFDFA_alpha1_Max": -0.26536439945921586,
+            "HRV_MFDFA_alpha1_Delta": -0.7785800926342512,
+            "HRV_MFDFA_alpha1_Asymmetry": -0.33416555270897796,
+            "HRV_MFDFA_alpha1_Fluctuation": 8.588210226487637e-05,
+            "HRV_MFDFA_alpha1_Increment": 0.04715556230732947,
+            "HRV_ApEn": 0.07008155436933627,
+            "HRV_SampEn": Infinity,
+            "HRV_ShanEn": 4.623516641218016,
+            "HRV_FuzzyEn": 1.997969317185068,
+            "HRV_MSEn": NaN,
+            "HRV_CMSEn": NaN,
+            "HRV_RCMSEn": NaN,
+            "HRV_CD": 1.9138020159286342,
+            "HRV_HFD": 2.043871025726839,
+            "HRV_KFD": 9.730880449044035,
+            "HRV_LZC": 1.446289144043413
+        },
+        {
+            "Label": "Video 2",
+            "PPG_Rate_Mean": 67.39721900029244,
+            "HRV_MeanNN": 120.47826086956522,
+            "HRV_SDNN": 40.7329100418115,
+            "HRV_SDANN1": NaN,
+            "HRV_SDNNI1": NaN,
+            "HRV_SDANN2": NaN,
+            "HRV_SDNNI2": NaN,
+            "HRV_SDANN5": NaN,
+            "HRV_SDNNI5": NaN,
+            "HRV_RMSSD": 59.826263615420764,
+            "HRV_SDSD": 61.23406233143764,
+            "HRV_CVNN": 0.3380934431474791,
+            "HRV_CVSD": 0.49657310110237374,
+            "HRV_MedianNN": 140.0,
+            "HRV_MadNN": 31.1346,
+            "HRV_MCVNN": 0.22239,
+            "HRV_IQRNN": 62.0,
+            "HRV_SDRMSSD": 0.6808533172596829,
+            "HRV_Prc20NN": 80.0,
+            "HRV_Prc80NN": 155.6,
+            "HRV_pNN50": 47.82608695652174,
+            "HRV_pNN20": 69.56521739130434,
+            "HRV_MinNN": 41.0,
+            "HRV_MaxNN": 162.0,
+            "HRV_HTI": 4.6,
+            "HRV_TINN": 109.375,
+            "HRV_ULF": NaN,
+            "HRV_VLF": NaN,
+            "HRV_LF": NaN,
+            "HRV_HF": NaN,
+            "HRV_VHF": NaN,
+            "HRV_TP": 0.0,
+            "HRV_LFHF": NaN,
+            "HRV_LFn": NaN,
+            "HRV_HFn": NaN,
+            "HRV_LnHF": NaN,
+            "HRV_SD1": 43.29902071415929,
+            "HRV_SD2": 38.594910280593986,
+            "HRV_SD1SD2": 1.1218842173583337,
+            "HRV_S": 5249.984032024881,
+            "HRV_CSI": 0.8913575790866096,
+            "HRV_CVI": 4.42712809245079,
+            "HRV_CSI_Modified": 137.60746317110062,
+            "HRV_PIP": 0.4782608695652174,
+            "HRV_IALS": 0.5454545454545455,
+            "HRV_PSS": 0.9166666666666666,
+            "HRV_PAS": 0.0,
+            "HRV_GI": 49.907578558225524,
+            "HRV_SI": 48.468978896190215,
+            "HRV_AI": 51.039485086987966,
+            "HRV_PI": 54.54545454545454,
+            "HRV_C1d": 0.5784206649564401,
+            "HRV_C1a": 0.42157933504356004,
+            "HRV_SD1d": 32.930663088200504,
+            "HRV_SD1a": 28.113714667061558,
+            "HRV_C2d": 0.38286336291509354,
+            "HRV_C2a": 0.6171366370849065,
+            "HRV_SD2d": 23.880968762341734,
+            "HRV_SD2a": 30.319406830265624,
+            "HRV_Cd": 0.4918382885432607,
+            "HRV_Ca": 0.5081617114567393,
+            "HRV_SDNNd": 28.76394653430326,
+            "HRV_SDNNa": 29.23736806656945,
+            "HRV_DFA_alpha1": 0.2826894532322266,
+            "HRV_MFDFA_alpha1_Width": 0.5956068552287375,
+            "HRV_MFDFA_alpha1_Peak": 0.35754257632165787,
+            "HRV_MFDFA_alpha1_Mean": 0.47616200723492075,
+            "HRV_MFDFA_alpha1_Max": 0.1966693688996708,
+            "HRV_MFDFA_alpha1_Delta": -0.5364042240440827,
+            "HRV_MFDFA_alpha1_Asymmetry": -0.3008427373326518,
+            "HRV_MFDFA_alpha1_Fluctuation": 4.1331992126149635e-05,
+            "HRV_MFDFA_alpha1_Increment": 0.018023936305414958,
+            "HRV_ApEn": 0.2554704267809109,
+            "HRV_SampEn": Infinity,
+            "HRV_ShanEn": 4.436605434317883,
+            "HRV_FuzzyEn": 2.0150165653238394,
+            "HRV_MSEn": NaN,
+            "HRV_CMSEn": NaN,
+            "HRV_RCMSEn": NaN,
+            "HRV_CD": 1.8526757853113056,
+            "HRV_HFD": 2.0375399036201465,
+            "HRV_KFD": 3.6768602655874583,
+            "HRV_LZC": 1.3767362474956126
+        }
+    ],
+    "PPG Green Features": [
+        {
+            "Label": "Video 1",
+            "SCR_Peaks_N": 7,
+            "SCR_Peaks_Amplitude_Mean": 0.045077540730847,
+            "EDA_Tonic_SD": 0.06845198826803238,
+            "EDA_Sympathetic": NaN,
+            "EDA_SympatheticN": NaN,
+            "EDA_Autocorrelation": NaN
+        },
+        {
+            "Label": "Video 2",
+            "SCR_Peaks_N": 2,
+            "SCR_Peaks_Amplitude_Mean": 0.06505224750323438,
+            "EDA_Tonic_SD": 0.0379291758406557,
+            "EDA_Sympathetic": NaN,
+            "EDA_SympatheticN": NaN,
+            "EDA_Autocorrelation": NaN
+        }
+    ],
+    "EDA Features": [
+        {
+            "Label": "Video 1",
+            "SCR_Peaks_N": 7,
+            "SCR_Peaks_Amplitude_Mean": 0.045077540730847,
+            "EDA_Tonic_SD": 0.06845198826803238,
+            "EDA_Sympathetic": NaN,
+            "EDA_SympatheticN": NaN,
+            "EDA_Autocorrelation": NaN
+        },
+        {
+            "Label": "Video 2",
+            "SCR_Peaks_N": 2,
+            "SCR_Peaks_Amplitude_Mean": 0.06505224750323438,
+            "EDA_Tonic_SD": 0.0379291758406557,
+            "EDA_Sympathetic": NaN,
+            "EDA_SympatheticN": NaN,
+            "EDA_Autocorrelation": NaN
+        }
+    ]
+}
