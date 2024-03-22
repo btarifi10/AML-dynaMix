@@ -98,7 +98,18 @@ def plot_segments_features_by_video_index(partitions, segments, features, filena
 
     plt.savefig(f"{filename}_{video_name}.png")
 
-FileNames = ["LAURIE_ECG_ARM_PPG_INDEX_2024-02-19_17-34-31", "LAURIE_FEATURE_TEST_2024-02-19_17-10-04"]
+FileNames = ["Alysonn_2024-03-07_17-58-45",
+             "Jared_2024-03-07_18-54-03",
+             "Thomas_2024-03-07_19-47-05",
+             "Lia Llorca_2024-03-05_19-04-49",
+             "William Powell_2024-03-04_18-23-11",
+             "Aaron Fainman_2024-03-12_15-20-57",
+             "gabriella_2024-03-12_18-24-59",
+             "Genaro_2024-03-12_16-06-10",
+             "Joe_2024-03-12_17-36-10",
+             "Kostas_2024-03-12_16-54-27",
+             "shaushan_2024-03-12_19-32-25"
+             ]
 
 # Dictionary to hold DataFrames for each file
 dataframes = {}
@@ -148,27 +159,27 @@ videoDuration = {
 
 # segments = ['single_video', 'self_assessment', 'break']
 # features = ['ECG', 'PPG_red', 'PPG_ir', 'PPG_green']
-
-df_signals = dataframes['LAURIE_ECG_ARM_PPG_INDEX']
-df_signals1 = dataframes['LAURIE_FEATURE_TEST']
-
-
-partitions_Arm, name_ARM = partition_dataset(df_signals, videoDuration)
-partitions_Chest, name_CHEST = partition_dataset(df_signals1, videoDuration)
+print(dataframes)
+# df_signals = dataframes['shaushan']
+# df_signals1 = dataframes['shaushan']
 
 
-segments = ['single_video']
-features = ['ECG']
-# Assuming partitions is your dictionary of DataFrames created earlier
-# plot_segments_features_by_video_index(partitions_Arm, segments, features, name_ARM, video_index = 1)
+# partitions_Arm, name_ARM = partition_dataset(df_signals, videoDuration)
+# partitions_Chest, name_CHEST = partition_dataset(df_signals1, videoDuration)
 
 
-# plot_segments_features_by_video_index(partitions_Chest, segments, features, name_CHEST, video_index = 1)
+# segments = ['single_video']
+# features = ['ECG']
+# # Assuming partitions is your dictionary of DataFrames created earlier
+# # plot_segments_features_by_video_index(partitions_Arm, segments, features, name_ARM, video_index = 1)
+
+
+# # plot_segments_features_by_video_index(partitions_Chest, segments, features, name_CHEST, video_index = 1)
 
 
 
-raw_GSR = partitions_Arm['Video 1']['single_video']['GSR']
-timestamps = partitions_Arm['Video 1']['single_video']['timestamp']
+# raw_GSR = partitions_Arm['Video 1']['single_video']['GSR']
+# timestamps = partitions_Arm['Video 1']['single_video']['timestamp']
 
 
 
