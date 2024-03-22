@@ -98,56 +98,6 @@
                     23.4375
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     85.21753315479887
@@ -480,56 +430,6 @@
             "HRV_TINN": [
                 [
                     187.5
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -866,56 +766,6 @@
                     15.625
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     28.653724336765492
@@ -1248,56 +1098,6 @@
             "HRV_TINN": [
                 [
                     23.4375
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -1634,56 +1434,6 @@
                     31.25
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     26.554656915907774
@@ -2016,56 +1766,6 @@
             "HRV_TINN": [
                 [
                     15.625
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -2402,56 +2102,6 @@
                     15.625
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     47.68341515462248
@@ -2784,56 +2434,6 @@
             "HRV_TINN": [
                 [
                     31.25
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -3170,56 +2770,6 @@
                     15.625
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     26.506582410238785
@@ -3552,56 +3102,6 @@
             "HRV_TINN": [
                 [
                     46.875
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -3938,56 +3438,6 @@
                     46.875
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     10.8627608710926
@@ -4320,56 +3770,6 @@
             "HRV_TINN": [
                 [
                     46.875
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -4706,56 +4106,6 @@
                     46.875
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     32.666078017742265
@@ -5090,56 +4440,6 @@
                     23.4375
                 ]
             ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
-                ]
-            ],
             "HRV_SD1": [
                 [
                     26.532499172462437
@@ -5472,56 +4772,6 @@
             "HRV_TINN": [
                 [
                     23.4375
-                ]
-            ],
-            "HRV_ULF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VLF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_VHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_TP": [
-                [
-                    0.0
-                ]
-            ],
-            "HRV_LFHF": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_HFn": [
-                [
-                    NaN
-                ]
-            ],
-            "HRV_LnHF": [
-                [
-                    NaN
                 ]
             ],
             "HRV_SD1": [
@@ -9837,93 +9087,93 @@
     "EDA Features": [
         {
             "Label": "53.mp4",
-            "SCR_Peaks_N": 2,
-            "SCR_Peaks_Amplitude_Mean": 0.07696903457403093,
-            "EDA_Tonic_SD": 0.11934426525968597
+            "SCR_Peaks_N": 10,
+            "SCR_Peaks_Amplitude_Mean": 0.06695348588812758,
+            "EDA_Tonic_SD": 0.16527870410598983
         },
         {
             "Label": "73.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.07977751191543911
+            "SCR_Peaks_N": 5,
+            "SCR_Peaks_Amplitude_Mean": 0.10268147243728185,
+            "EDA_Tonic_SD": 0.1139201531116371
         },
         {
             "Label": "2.mp4",
-            "SCR_Peaks_N": 3,
-            "SCR_Peaks_Amplitude_Mean": 0.19004909568243766,
-            "EDA_Tonic_SD": 0.06380543668869214
+            "SCR_Peaks_N": 8,
+            "SCR_Peaks_Amplitude_Mean": 0.16517553677996155,
+            "EDA_Tonic_SD": 0.09109681541766125
         },
         {
             "Label": "58.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.1051278349586012
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.055331823150255824,
+            "EDA_Tonic_SD": 0.15008533674491753
         },
         {
             "Label": "23.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.08865541408783509
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.03704725351563417,
+            "EDA_Tonic_SD": 0.12656312690751081
         },
         {
             "Label": "119.mp4",
-            "SCR_Peaks_N": 1,
-            "SCR_Peaks_Amplitude_Mean": 0.036144697930272564,
-            "EDA_Tonic_SD": 0.09336828816178858
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.023092093628366776,
+            "EDA_Tonic_SD": 0.13328564210533703
         },
         {
             "Label": "62.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.05360976173994108
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.03553392578514261,
+            "EDA_Tonic_SD": 0.07652813292457517
         },
         {
             "Label": "44.mp4",
-            "SCR_Peaks_N": 1,
-            "SCR_Peaks_Amplitude_Mean": 0.00323858409974212,
-            "EDA_Tonic_SD": 0.06488234593422354
+            "SCR_Peaks_N": 3,
+            "SCR_Peaks_Amplitude_Mean": 0.005426923626135329,
+            "EDA_Tonic_SD": 0.09264893847766158
         },
         {
             "Label": "25.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.09183014168379186
+            "SCR_Peaks_N": 5,
+            "SCR_Peaks_Amplitude_Mean": 0.07884453374524981,
+            "EDA_Tonic_SD": 0.1310859504889832
         },
         {
             "Label": "28.mp4",
-            "SCR_Peaks_N": 2,
-            "SCR_Peaks_Amplitude_Mean": 0.1928028934559723,
-            "EDA_Tonic_SD": 0.1225436161661236
+            "SCR_Peaks_N": 3,
+            "SCR_Peaks_Amplitude_Mean": 0.1955015810080186,
+            "EDA_Tonic_SD": 0.17496822890024852
         },
         {
             "Label": "33.mp4",
-            "SCR_Peaks_N": 1,
-            "SCR_Peaks_Amplitude_Mean": 0.07741591002589338,
-            "EDA_Tonic_SD": 0.08523322040670543
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.09515278977528857,
+            "EDA_Tonic_SD": 0.12171997946846956
         },
         {
             "Label": "72.mp4",
-            "SCR_Peaks_N": 0,
-            "SCR_Peaks_Amplitude_Mean": NaN,
-            "EDA_Tonic_SD": 0.06196996834520468
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.04891906463986412,
+            "EDA_Tonic_SD": 0.08843537129428798
         },
         {
             "Label": "91.mp4",
-            "SCR_Peaks_N": 3,
-            "SCR_Peaks_Amplitude_Mean": 0.013987505798529512,
-            "EDA_Tonic_SD": 0.20493896699812714
+            "SCR_Peaks_N": 6,
+            "SCR_Peaks_Amplitude_Mean": 0.030759533754947083,
+            "EDA_Tonic_SD": 0.29259801569234684
         },
         {
             "Label": "27.mp4",
-            "SCR_Peaks_N": 1,
-            "SCR_Peaks_Amplitude_Mean": 0.003682074835459459,
-            "EDA_Tonic_SD": 0.12530566880823957
+            "SCR_Peaks_N": 5,
+            "SCR_Peaks_Amplitude_Mean": 0.02654210662504204,
+            "EDA_Tonic_SD": 0.17893041564458284
         },
         {
             "Label": "120.mp4",
-            "SCR_Peaks_N": 1,
-            "SCR_Peaks_Amplitude_Mean": 0.000528414906560401,
-            "EDA_Tonic_SD": 0.053158225328783414
+            "SCR_Peaks_N": 4,
+            "SCR_Peaks_Amplitude_Mean": 0.021257088529106537,
+            "EDA_Tonic_SD": 0.07577425312360113
         }
     ],
     "Video Condition": "[4, 1, 1, 4, 2, 4, 1, 3, 2, 2, 3, 1, 3, 2, 4]"
